@@ -21,6 +21,10 @@ claude mcp add --transport http specstream https://api.specstream.ai/mcp
 
 Setup for Claude: https://specstream.ai/docs/mcp/claude
 
+## Aeon
+
+The `aeon/` folder is a community skill pack for [Aeon](https://github.com/aeonfun/aeon): `bin/install-skill-pack specstream/search-web-skill --path aeon`. Setup is in [aeon/README.md](aeon/README.md).
+
 ## Price
 
 $5 per 1,000 searches of up to 10 results, or $1 per 1,000 on the fast tier. New accounts start with $10 of credit, no card.

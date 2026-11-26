@@ -1,0 +1,19 @@
+{
+  "name": "SpecStream Pack",
+  "version": "0.1.0",
+  "description": "Live web search through the SpecStream Search API: a short answer with the page it was read from, then ranked sources",
+  "author": "specstream",
+  "license": "MIT",
+  "homepage": "https://specstream.ai",
+  "skills": [
+    {
+      "slug": "specstream-web-search",
+      "path": "skills/specstream-web-search",
+      "description": "Search the live web for a query and deliver the sourced answer and the top sources, falling back to WebSearch without a key",
+      "category": "basics",
+      "default_enabled": false,
+      "secrets_required": ["SPECSTREAM_API_KEY"],
+      "capabilities": ["read_only", "external_api", "sends_notifications"]
+    }
+  ]
+}
