@@ -75,7 +75,7 @@ When `SOURCE_PATH=websearch`, don't end the run empty. Run the same query (`QUER
 
 ## Phase 2: Format Results
 
-- **Answer** (when present): one line with the value and a link to its page. It leads the output.
+- **Answer** (when present): one line with the value and a link to its page. It leads the output. Keep it only when its page is about the query's subject (the same product, chain, company or person) and the value answers the question asked; otherwise leave the answer out and deliver the sources.
 - **Each source**: title, URL, snippet, and the `published` date when there is one.
 - Drop results with no URL and near duplicates from the same domain.
 
