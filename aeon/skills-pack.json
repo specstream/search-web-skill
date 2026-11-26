@@ -13,8 +13,7 @@
       "category": "basics",
       "default_enabled": false,
       "secrets_required": ["SPECSTREAM_API_KEY"],
-      "capabilities": ["read_only", "external_api", "sends_notifications"],
-      "schedule": "workflow_dispatch"
+      "capabilities": ["read_only", "external_api", "sends_notifications"]
     }
   ]
 }

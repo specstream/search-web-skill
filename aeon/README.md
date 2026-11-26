@@ -4,7 +4,7 @@ A community skill pack for [Aeon](https://github.com/aeonfun/aeon). It gives an 
 
 | Skill | What it does | Default schedule |
 | --- | --- | --- |
-| `specstream-web-search` | Searches the live web for the skill's `var` and delivers a short answer with the page it was read from, then the top sources | on demand |
+| `specstream-web-search` | Searches the live web for the skill's `var` and delivers a short answer with the page it was read from, then the top sources | daily 12:00 UTC once enabled, or run it with a `var` |
 
 ## Install
 
